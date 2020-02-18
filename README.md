@@ -1,1 +1,1 @@
-UMN_poster
+# UofMN poster template
