@@ -1,0 +1,80 @@
+---
+title: Poster title
+primary_colour: "#7f1d1a"
+sectitle_textcol: black 
+sectitle_bgcol: "#ffff99"
+author:
+  - name: Author
+    affil: 1
+    orcid: '0000-0002-1099-3857'
+  - name: Author
+    affil: 2
+affiliation:
+  - num: 1
+    address: Department of Experimental and Clinical Pharmacology, University of Minnesota
+column_numbers: 3
+logoleft_name: goldyM2out-RGB.png
+logoright_name: logo3.png
+logoright_width: "50px"
+output: 
+  posterdown::posterdown_html:
+    self_contained: false
+bibliography: packages.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+Write down ntroduction section here 
+
+
+## Objectives
+
+1. Easy to use reproducible poster design. 
+2. Integration with R Markdown.
+3. Easy transition from `posterdown` to `pagedown` report or manuscript documents [@R-pagedown].
+
+# Methods
+
+Methods here 
+
+
+
+
+
+
+
+
+# Results
+
+
+Results with plots 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Next Steps
+
+Write whatever you want
+
+# Conclusion
+
+Conclusion should be AWSOME
+
+```{r, include=FALSE}
+knitr::write_bib(c('knitr','rmarkdown','posterdown','pagedown'), 'packages.bib')
+```
+
+# References
