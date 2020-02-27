@@ -7,14 +7,35 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<script>
-   $(document).ready(function() {
-     $head = $('#header');
-     $head.prepend('<img src=\"CopyOfgoldyM2out-RGB.png\" style=\"float: right;width: 100px;\"/>')
-   });
-</script>
 
 
 ## R Markdown
 
 This is an R Markdown document having UMN logo
+
+
+
+
+
+
+<!--- Dont play with the code below -->
+<script>
+   $(document).ready(function() {
+     $head = $('#header');
+     $head.prepend('<img src=\"CopyOfgoldyM2out-RGB.png\" style=\"float: left;width: 100px;\"/>')
+   });
+</script>
+
+<style> 
+  #header { 
+    background: #800000; 
+    color: white;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1.title {
+    margin: auto;
+  }
+</style>
