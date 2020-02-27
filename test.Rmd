@@ -1,0 +1,20 @@
+---
+title: "template"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<script>
+   $(document).ready(function() {
+     $head = $('#header');
+     $head.prepend('<img src=\"CopyOfgoldyM2out-RGB.png\" style=\"float: right;width: 100px;\"/>')
+   });
+</script>
+
+
+## R Markdown
+
+This is an R Markdown document having UMN logo
